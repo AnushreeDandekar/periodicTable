@@ -1,6 +1,7 @@
 Periodic Table App  
 -An interactive web application built with **Spring Boot** (backend) and **React** (frontend) that displays data for all 118 chemical elements.  
 -Users can view different element properties and use a search bar to find specific elements by name.  
+
 Note:
     This project is an attempt to understand how a Java Spring Boot backend can integrate with a React frontend in a full-stack web application.  
     It was built as a learning exercise to deepen my understanding of REST APIs, component rendering, and data flow between backend and frontend.  
