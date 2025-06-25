@@ -1,0 +1,123 @@
+/* General Page Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f1a;
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: black;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #98f759; /* light green */
+  color: black;
+}
+
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+tr:hover td {
+  color: black;
+  background-color: #dfffd8;
+}
+
+/* Image Styling */
+img {
+  max-width: 80px;
+  height: auto;
+}
+
+/* Search Input */
+input[type="text"] {
+  padding: 12px 20px;
+  width: 300px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 25px;
+  outline: none;
+  color: black;
+  background-color: #fff0f6;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(232, 124, 164, 0.2);
+}
+
+input[type="text"]::placeholder {
+  color: #ff6700;
+  font-style: italic;
+}
+
+input[type="text"]:focus {
+  border-color: #ff6700;
+  box-shadow: 0 0 12px rgba(255, 103, 0, 0.5);
+  background-color: white;
+}
+
+/* Search Container Centered */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Chemistry Block Title */
+.element-block-title {
+  width: 180px;
+  height: 180px;
+  background-color: #98f759;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto 30px auto;
+box-shadow: 
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 30px #39ff14,
+    0 0 40px #39ff14; /* stacked for ultra glow */  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.element-block-title .atomic-number {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 8px;
+  color: black;
+  text-shadow: 0 0 6px #ff6700, 0 0 12px #ff6700, 0 0 18px #ff6700;
+}
+
+.element-block-title .symbol {
+  font-size: 64px;
+  font-weight: 800;
+  color: black;
+  text-shadow: 0 0 8px #ff6700, 0 0 16px #ff6700, 0 0 24px #ff6700;
+}
+
+.element-block-title .element-name {
+  font-size: 20px;
+  margin-top: 5px;
+  font-style: italic;
+  color: black;
+  text-shadow: 0 0 5px #ff6700, 0 0 10px #ff6700;
+}
